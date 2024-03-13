@@ -1,0 +1,35 @@
+
+
+
+.mainbox {
+  padding: 5%;
+  width: 60%;
+  max-width: 400px;
+  margin: 5% auto;
+  background-color: aliceblue;
+}
+
+.colorbox {
+  padding: 10%;
+  width: 80%;
+  height: 80%;
+  height: auto;
+  margin-bottom: 10%;
+}
+
+.sliderbox {
+  padding: 10%;
+  width: 80%;
+  height: auto;
+  background-color: antiquewhite;
+}
+
+p {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .mainbox {
+    width: 80%;
+  }
+}
